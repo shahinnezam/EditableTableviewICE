@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		3FC1ED98283443EC005B8C7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1ED97283443EC005B8C7A /* AppDelegate.swift */; };
 		3FC1ED9A283443EC005B8C7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1ED99283443EC005B8C7A /* SceneDelegate.swift */; };
-		3FC1ED9C283443EC005B8C7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1ED9B283443EC005B8C7A /* ViewController.swift */; };
 		3FC1ED9F283443EC005B8C7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1ED9D283443EC005B8C7A /* Main.storyboard */; };
 		3FC1EDA1283443F0005B8C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1EDA0283443F0005B8C7A /* Assets.xcassets */; };
 		3FC1EDA4283443F0005B8C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1EDA2283443F0005B8C7A /* LaunchScreen.storyboard */; };
 		3FC1EDAF283443F0005B8C7A /* Editable_TableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EDAE283443F0005B8C7A /* Editable_TableviewTests.swift */; };
 		3FC1EDB9283443F0005B8C7A /* Editable_TableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EDB8283443F0005B8C7A /* Editable_TableviewUITests.swift */; };
 		3FC1EDBB283443F0005B8C7A /* Editable_TableviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EDBA283443F0005B8C7A /* Editable_TableviewUITestsLaunchTests.swift */; };
+		3FC1EDC828344A3A005B8C7A /* EditableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EDC728344A3A005B8C7A /* EditableVC.swift */; };
+		3FC1EDCA28344A9F005B8C7A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EDC928344A9F005B8C7A /* Car.swift */; };
+		3FC1EDCC28344F0B005B8C7A /* Datastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EDCB28344F0B005B8C7A /* Datastore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		3FC1ED94283443EC005B8C7A /* Editable Tableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Editable Tableview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC1ED97283443EC005B8C7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC1ED99283443EC005B8C7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FC1ED9B283443EC005B8C7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FC1ED9E283443EC005B8C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FC1EDA0283443F0005B8C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC1EDA3283443F0005B8C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		3FC1EDB4283443F0005B8C7A /* Editable TableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Editable TableviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC1EDB8283443F0005B8C7A /* Editable_TableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editable_TableviewUITests.swift; sourceTree = "<group>"; };
 		3FC1EDBA283443F0005B8C7A /* Editable_TableviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editable_TableviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FC1EDC728344A3A005B8C7A /* EditableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableVC.swift; sourceTree = "<group>"; };
+		3FC1EDC928344A9F005B8C7A /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		3FC1EDCB28344F0B005B8C7A /* Datastore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datastore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				3FC1ED97283443EC005B8C7A /* AppDelegate.swift */,
 				3FC1ED99283443EC005B8C7A /* SceneDelegate.swift */,
-				3FC1ED9B283443EC005B8C7A /* ViewController.swift */,
 				3FC1ED9D283443EC005B8C7A /* Main.storyboard */,
 				3FC1EDA0283443F0005B8C7A /* Assets.xcassets */,
 				3FC1EDA2283443F0005B8C7A /* LaunchScreen.storyboard */,
 				3FC1EDA5283443F0005B8C7A /* Info.plist */,
+				3FC1EDC728344A3A005B8C7A /* EditableVC.swift */,
+				3FC1EDC928344A9F005B8C7A /* Car.swift */,
+				3FC1EDCB28344F0B005B8C7A /* Datastore.swift */,
 			);
 			path = "Editable Tableview";
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC1ED9C283443EC005B8C7A /* ViewController.swift in Sources */,
 				3FC1ED98283443EC005B8C7A /* AppDelegate.swift in Sources */,
+				3FC1EDC828344A3A005B8C7A /* EditableVC.swift in Sources */,
+				3FC1EDCA28344A9F005B8C7A /* Car.swift in Sources */,
+				3FC1EDCC28344F0B005B8C7A /* Datastore.swift in Sources */,
 				3FC1ED9A283443EC005B8C7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
