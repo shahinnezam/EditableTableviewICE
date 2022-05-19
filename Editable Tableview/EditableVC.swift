@@ -15,7 +15,6 @@ class EditableVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func addCar() {
@@ -41,17 +40,22 @@ class EditableVC: UITableViewController {
                      sender.setTitle("Done", for: .normal)
                  }
             }
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+                if( editingStyle == .delete) {
+                    sampleMake.append(ds.cars[indexPath.row].make!)
+                    ds.remove(atIndex: indexPath.row)
+                    tableView.deleteRows(at: [indexPath], with: .automatic)
+                }
+            }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return ds.cars.count
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let newCell = tableView.dequeueReusableCell(withIdentifier: "newCell", for: indexPath)
+        let newCell = tableView.dequeueReusableCell(withIdentifier: "myTableCell", for: indexPath)
         newCell.textLabel?.text = ds.cars[indexPath.row].make
         newCell.detailTextLabel?.text = ""
         
         return newCell
         
     }
-    
-
 }

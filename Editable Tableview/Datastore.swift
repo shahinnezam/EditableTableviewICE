@@ -25,4 +25,8 @@ class Datastore {
         let newCar = Car(make: make)
             cars.append(newCar)
         }
+    
+    func remove(atIndex: Int) {
+        cars.remove(at:atIndex)
+    }
 }
