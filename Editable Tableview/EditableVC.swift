@@ -47,6 +47,7 @@ class EditableVC: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let newCell = tableView.dequeueReusableCell(withIdentifier: "newCell", for: indexPath)
         newCell.textLabel?.text = ds.cars[indexPath.row].make
+        newCell.detailTextLabel?.text = ""
         
         return newCell
         
