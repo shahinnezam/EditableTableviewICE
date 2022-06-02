@@ -10,13 +10,15 @@ import UIKit
 
 class Car {
     var make: String?
+    var year: Int?
     
-    init(make: String) {
+    init(make: String, year: Int) {
         self.make = make
+        self.year = year
     }
     
     convenience init() {
-        self.init(make: "[MAKE]")
+        self.init(make: "[MAKE]", year: 0)
     }
 }
 
