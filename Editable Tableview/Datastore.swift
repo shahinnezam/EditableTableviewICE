@@ -14,15 +14,15 @@ class Datastore {
    
     
     init() {
-        let car1 = Car(make: "Mitsubishi")
-        let car2 = Car(make: "Mercedes")
-        let car3 = Car(make: "Subaru")
-        let car4 = Car(make: "BMW")
+        let car1 = Car(make: "Mitsubishi", year: 2002)
+        let car2 = Car(make: "Mercedes", year: 2017)
+        let car3 = Car(make: "Subaru", year: 2019)
+        let car4 = Car(make: "BMW", year: 2007)
     cars = [car1, car2, car3, car4]
     }
     
-    func addCar(make: String) {
-        let newCar = Car(make: make)
+    func addCar(make: String, year: Int) {
+        let newCar = Car(make: make, year: year)
             cars.append(newCar)
         }
     

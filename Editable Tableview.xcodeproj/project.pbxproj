@@ -18,6 +18,7 @@
 		3FC1EDC828344A3A005B8C7A /* EditableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EDC728344A3A005B8C7A /* EditableVC.swift */; };
 		3FC1EDCA28344A9F005B8C7A /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EDC928344A9F005B8C7A /* Car.swift */; };
 		3FC1EDCC28344F0B005B8C7A /* Datastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EDCB28344F0B005B8C7A /* Datastore.swift */; };
+		3FECCABA284963AA006F8C0E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FECCAB9284963AA006F8C0E /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3FC1EDC728344A3A005B8C7A /* EditableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableVC.swift; sourceTree = "<group>"; };
 		3FC1EDC928344A9F005B8C7A /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		3FC1EDCB28344F0B005B8C7A /* Datastore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datastore.swift; sourceTree = "<group>"; };
+		3FECCAB9284963AA006F8C0E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3FC1ED97283443EC005B8C7A /* AppDelegate.swift */,
 				3FC1ED99283443EC005B8C7A /* SceneDelegate.swift */,
 				3FC1ED9D283443EC005B8C7A /* Main.storyboard */,
+				3FECCAB9284963AA006F8C0E /* DetailView.swift */,
 				3FC1EDA0283443F0005B8C7A /* Assets.xcassets */,
 				3FC1EDA2283443F0005B8C7A /* LaunchScreen.storyboard */,
 				3FC1EDA5283443F0005B8C7A /* Info.plist */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC1ED98283443EC005B8C7A /* AppDelegate.swift in Sources */,
+				3FECCABA284963AA006F8C0E /* DetailView.swift in Sources */,
 				3FC1EDC828344A3A005B8C7A /* EditableVC.swift in Sources */,
 				3FC1EDCA28344A9F005B8C7A /* Car.swift in Sources */,
 				3FC1EDCC28344F0B005B8C7A /* Datastore.swift in Sources */,
